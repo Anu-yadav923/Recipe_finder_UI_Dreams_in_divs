@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cuisine Spotlight</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+    }
+
+    .spotlight-container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .spotlight-title {
+      font-size: 3rem;
+      color: #d35400;
+      margin-bottom: 20px;
+    }
+
+    .cuisine-card {
+      background-color: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 800px;
+      transition: transform 0.3s ease;
+    }
+
+    .cuisine-card:hover {
+      transform: scale(1.02);
+    }
+
+    .cuisine-image {
+      width: 100%;
+      border-radius: 12px;
+      height: auto;
+    }
+
+    .cuisine-name {
+      font-size: 2rem;
+      color: #2c3e50;
+      margin-top: 15px;
+    }
+
+    .cuisine-description {
+      font-size: 1.1rem;
+      color: #555;
+      margin: 15px 0;
+    }
+
+    .learn-more {
+      text-decoration: none;
+      background-color: #e67e22;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .learn-more:hover {
+      background-color: #d35400;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="spotlight-container">
+    <h1 class="spotlight-title">Cuisine Spotlight</h1>
+
+    <div class="cuisine-card">
+      <h2 class="cuisine-name">Fast Foods</h2>
+      <p class="cuisine-description">
+        Experience the vibrant spices and flavors of fast foods! From pizzas to sandwiches  Fast food is a celebration of culture and taste.
+      </p>
+      <a href="#" class="learn-more">Explore More</a>
+    </div>
+
+    <div class="cuisine-card">
+      <h2 class="cuisine-name">Indian Cuisine</h2>
+      <p class="cuisine-description">
+        Savor the simplicity and freshness of Indian cuisine — dosa,biryani,chole bhature,gajar ka halwa come together to create timeless classics everyone loves.
+      </p>
+      <a href="#" class="learn-more">Explore More</a>
+    </div>
+
+    
+  </div>
+
+</body>
+</html>

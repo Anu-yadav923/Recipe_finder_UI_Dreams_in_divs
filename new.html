@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Cuisine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="new.css">
+    <style>
+        /* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover styles */
+.dropdown-content a:hover {
+    background-color: #575757;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-log border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-address border">
+                <p class="add-first">chief's</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-bowl-food"></i>
+                    <p class="add-sec">choice</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="search recipe" class="search-input">
+                <div class="search-icon">
+                   <i class="fa-solid fa-magnifying-glass"></i> 
+                </div>
+            </div>
+
+            <div class="about-border">
+                <p><a href="about.html" style="color: aliceblue; text-decoration: none;" >About us</a></p>
+            </div>
+            <div class="contact-border">
+                <p><a href="contact.html"style="color: aliceblue; text-decoration: none;">contact us</a></p>
+            </div>
+            
+        <div class="nav-cart-border">
+            <i class="fa-regular fa-heart"></i>
+            favourites
+        </div>
+        </div>
+        <div class="panel">
+            <div class="panel-all dropdown">
+  <button class="dropbtn">
+    <i class="fa-solid fa-bars"></i> All
+  </button>
+  <div class="dropdown-content">
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+</div>
+
+            <div class="panel-ops">
+                <p><a href="cuisinespotlight.html"style="color: aliceblue; text-decoration: none;">Cuisine Spotlight</a></p>
+                <p><a href="here.html"style="color: aliceblue; text-decoration: none;">We're here</a></p>
+                
+                <p><a href="kitchen.html"style="color: aliceblue; text-decoration: none;">Kitchen's Choice</a></p>
+                <p><a href="delice.html"style="color: aliceblue; text-decoration: none;">Délice</a></p>
+            </div>
+            <div class="panel-deals">
+                Dishes too good to miss!
+            </div>
+        </div>
+    </header>
+
+
+    <div class="hero-section">
+        <div class="hero-msg">
+            <p>Now-or-never recipe on your favourites! <a>click here!</a> </p>
+        </div>
+    </div>
+
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2><a href="pasta.html">Pasta</a></h2>
+                <div class="box-img" style="background-image: url('pasta1.jpg');"></div>
+                <p>See recipe</p>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2><a href="sandwich.html">Sandwich</a></h2>
+                <div class="box-img" style="background-image: url('sandwich.jpg');"></div>
+                <p>See recipe</p>
+            </div>    
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2><a href="pizza.html">Pizza</a></h2>
+                <div class="box-img" style="background-image: url('pizza.jpg');"></div>
+                <p>See recipe</p>
+            </div>    
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2><a href="frenchfries.html">FrenchFries</a></h2>
+                <div class="box-img" style="background-image: url('frenchfries.jpg');"></div>
+                <p>See recipe</p>
+            </div>    
+        </div>
+
+        <div class="box1 box">
+            <div class="box-content">
+                <h2><a href="dosa.html">Dosa</a></h2>
+                <div class="box-img" style="background-image: url('dosa.jpg');"></div>
+                <p>See recipe</p>
+            </div>    
+            
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2><a href="cholebhature.html"></a>Chole Bhature</h2>
+                <div class="box-img" style="background-image: url('cholebhature.jpg');"></div>
+                <p>See recipe</p>
+        </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2><a href="biryani.html"></a>Biriyani</h2>
+                <div class="box-img" style="background-image: url('biriyani.jpg');"></div>
+                <p>See recipe</p>
+        </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2><a href="gajarhalwa.html"></a>Gajar ka Halwa</h2>
+                <div class="box-img" style="background-image: url('gajarkahalwa.jpg');"></div>
+                <p>See recipe</p>
+        </div>
+    </div>
+
+    <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <div class="footer_contact">
+            <h4>
+              Contact Us
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +91 6206940624
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  cuisine98@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <div class="footer_detail">
+            <a href="" class="footer-logo">
+              Let's Cuisine!
+            </a>
+            <p>
+              Come lets recipe with us & experience an authentic ______ meal in your happy space. We look forward to recipe you!
+
+
+            </p>
+            <div class="footer_social">
+              <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.instagram.com/">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="footer-info">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved
+          <br><br>
+          &copy; <span id="displayYear"></span> Distributed By
+          <a href="https://themewagon.com/" target="_blank">cuisine</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+
+
+
+
+</body>
+</html>
